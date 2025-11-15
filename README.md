@@ -26,7 +26,16 @@ Sigue las pantallas y coloca tus preferencias, como usuario, nombre del equipo y
 # Instalar aplicaciones
 
 ## Instalar python en windows 11
-*Agregar al path*
+Descargar el instalador de la [web oficial](https://www.python.org/downloads/windows/).
+
+Normalmente lo aconsejable es descargar la última versión estable, pero algunas aplicaciones exigen versiones ligeramente anteriores, solo debes buscar mas abajo el instalador más adecuado.  
+
+[![Descargar Python](imagenes/python_descargar.png "Siempre es recomendable descargar la última versión estable")](https://www.python.org/downloads/windows/)  
+
+Recuerda siembre durante la instalación tildar la casilla:  
+✅ Add python.exe to PATH  
+[![Instalar Python](imagenes/python_instalar.png "Siempre tildar: ✅ Add python.exe to PATH")](https://www.python.org/downloads/windows/)  
+
 
 
 ## Instalar git en windows 11
@@ -53,3 +62,9 @@ En una ventana de Powershell como administrador
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 # Elegir [S]í si lo solicita
 ```
+
+
+# Windows en 1 pen:
+https://www.youtube.com/shorts/-u0MlGX4_qw?feature=share
+
+# Windows 10 "Optimizado"
