@@ -68,3 +68,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 https://www.youtube.com/shorts/-u0MlGX4_qw?feature=share
 
 # Windows 10 "Optimizado"
+https://youtube.com/shorts/4boFoLz7ZLI
+https://youtube.com/shorts/UntjJYgyKyc
+https://youtube.com/shorts/3t1QryNAtik
+
