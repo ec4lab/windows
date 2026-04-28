@@ -79,7 +79,7 @@ Agregar al PATH
     * abrir `Editar las variables de entorno del sistema`
       * Click en `Variables de entorno`
 
-Buscar:
+Buscar y editar la variable PATH (Sistema):
 * Path
   * Click en Editar
     * Click en Nuevo
