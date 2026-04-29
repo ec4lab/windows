@@ -47,7 +47,7 @@ En el paso ``Adjusting your PATH environment``, seleccionar:
 Eso asegura que git funcione desde PowerShell, CMD o VSCode.
 + Reiniciar VSCode si ya estaba abierto.
 
-### Instalar ffmpeg em windows 11
+### Instalar ffmpeg en windows 11
 Descargar [FFmpeg](https://www.gyan.dev/ffmpeg/builds/)  
 `ffmpeg-release-essentials.zip` Esta versión es suficiente y más liviana  
 `ffmpeg-git-full.7z` Version Completa  
@@ -98,6 +98,61 @@ Verificar que funciona
 ffmpeg -version
 # Salida: ffmpeg version 7.x...
 ```
+### Instalar Exiftool en windows 11
+Descargar [Exiftool](https://exiftool.org/)  
+`64-bit: exiftool-13.57_64.zip` O la versión actual
+
+Descomprir el archivo, por ejemplo en:
+
+```Powershell
+C:\exiftool
+```
+Dentro quedará algo así:
+
+```Powershell
+C:\exiftoll
+ └── exiftool-13.57_64
+      └── exiftool_files
+      |    ├── ...
+      |    ├── ...
+      |    └── ...
+      └── exiftool(-k).exe
+```
+>[!IMPORTANT]
+>Renombrar `exiftool(-k).exe` a `exiftool.exe`, para evitar problemas de compatibilidad con UBUNTU
+
+Copiar la dirección:
+
+```Powershell
+C:\exiftoll\exiftool-13.57_64
+
+```
+Agregar al PATH
+* Inicio
+  * Escribir `variables de entorno`
+    * abrir `Editar las variables de entorno del sistema`
+      * Click en `Variables de entorno`
+
+Buscar y editar la variable PATH (Sistema):
+* Path
+  * Click en Editar
+    * Click en Nuevo
+
+Agregar:
+
+```Powershell
+C:\exiftoll\exiftool-13.57_64
+```
+
+Aceptar todo.
+
+Verificar que funciona
+
+```Powershell
+exiftool -ver
+# Salida: 13.57
+```
+
 
 ### Instalar VSCode em windows 11
 
