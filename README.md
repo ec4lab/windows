@@ -182,3 +182,6 @@ https://www.youtube.com/shorts/-u0MlGX4_qw?feature=share
 <https://youtube.com/shorts/UntjJYgyKyc>
 <https://youtube.com/shorts/3t1QryNAtik>
 
+## Ver tamaño de archivos
+
+<https://windirstat.net/>
