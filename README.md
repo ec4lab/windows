@@ -185,3 +185,22 @@ https://www.youtube.com/shorts/-u0MlGX4_qw?feature=share
 ## Ver tamaño de archivos
 
 <https://windirstat.net/>
+
+## Cómo ELIMINAR "Mostrar más opciones" del clic derecho, y ver menu contextual clasico en Windows 11
+
+[Fuente ](https://www.reddit.com/r/microsoft/comments/sv88tb/how_to_remove_show_more_options_from_windows_11/?tl=es-419)
+
+Para dejar por defecto el menú clásico: abrir una ventana de powershell
+
+```powershell
+reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+```
+
+Para restaurar "Mostrar más opciones": abrir una ventana de powershell
+
+```powershell
+reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
+```
+
+>[!TIP]
+>A mi me funcionó entrando a powershell como administrador, algunos usarios reportan que no funciona así, pero si entrando como usuario regular.
